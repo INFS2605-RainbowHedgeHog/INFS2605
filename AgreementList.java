@@ -15,18 +15,23 @@ import java.util.Hashtable;
 public class AgreementList {
     
     private Hashtable mainAgreementList;
-
+    
+    // No arg constructor
     public AgreementList() {        
         mainAgreementList = new Hashtable();
     }
-
+    
+    
+    // Getter methods
     public Hashtable getMainAgreementList() {
         return mainAgreementList;
     }
-
+    
+    // Setter methods
     public void setMainAgreementList(Hashtable mainAgreementList) {
         this.mainAgreementList = mainAgreementList;
     }
+    
     
     
 }
